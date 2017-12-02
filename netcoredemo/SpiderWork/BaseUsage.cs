@@ -26,9 +26,9 @@ namespace SpiderWork
             Spider spider = Spider.Create(site,
                 // use memoery queue scheduler. 使用内存调度
                 new QueueDuplicateRemovedScheduler(),
-                // use custmize processor for youku 为优酷自定义的 Processor
+                // use custmize processor for youku 为优酷自定义的处理器 Processor
                 new YoukuPageProcessor())
-                // use custmize pipeline for youku 为优酷自定义的 Pipeline
+                // use custmize pipeline for youku 为优酷自定义的管道 Pipeline
                 .AddPipeline(new YoukuPipeline());
             spider.Downloader = new HttpClientDownloader();
             spider.ThreadNum = 1;
@@ -36,6 +36,7 @@ namespace SpiderWork
 
             // Start crawler 启动爬虫
             spider.Run();
+
         }
 
         public class YoukuPipeline : BasePipeline

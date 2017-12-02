@@ -11,7 +11,8 @@ namespace SpiderWork
             try
             {
                 Console.WriteLine("开始");
-                BaseUsage.CustmizeProcessorAndPipeline();
+                BaiduSearchSpider jdSkuSampleSpider = new BaiduSearchSpider();
+                jdSkuSampleSpider.Run();
             }
             catch (Exception ex)
             {
