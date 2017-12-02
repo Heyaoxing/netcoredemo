@@ -11,8 +11,8 @@ namespace SpiderWork
             try
             {
                 Console.WriteLine("开始");
-                BaiduSearchSpider jdSkuSampleSpider = new BaiduSearchSpider();
-                jdSkuSampleSpider.Run();
+                ZhilianSpider zhilianSpider = new ZhilianSpider();
+                zhilianSpider.Run();
             }
             catch (Exception ex)
             {
