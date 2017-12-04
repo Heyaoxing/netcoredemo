@@ -25,7 +25,7 @@ namespace SpiderWork
             AddEntityType<ZhilianEntity>();
         }
 
-        [EntityTable("test", "zhilian_qiantai", EntityTable.Today)]
+        [EntityTable("test", "zhilian_docker", EntityTable.Today)]
         [EntitySelector(Expression = ".//table[@class='newlist']", Type = SelectorType.XPath)]
 		[TargetUrlsSelector(XPaths = new[] { "//div[@class='pagesDown']" }, Patterns = new[] { @"&p=[0-9]", @"kw=前台", @"kw=行政", @"kw=人事" })]
         class ZhilianEntity : SpiderEntity
