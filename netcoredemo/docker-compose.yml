@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  spiderwork:
+    image: microsoft/dotnet:latest
+    build:
+      context: ./SpiderWork
+      dockerfile: Dockerfile

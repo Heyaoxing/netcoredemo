@@ -1,0 +1,1 @@
+F:\git\netcoredemo\netcoredemo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
