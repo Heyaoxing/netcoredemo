@@ -10,6 +10,8 @@ namespace SpiderWork
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             try
             {
+                
+
                 Console.WriteLine("开始");
                 ZhilianSpider zhilianSpider = new ZhilianSpider();
                 zhilianSpider.Run();

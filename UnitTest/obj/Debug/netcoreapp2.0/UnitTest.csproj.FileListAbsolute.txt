@@ -1,0 +1,11 @@
+F:\git\netcoredemo\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.deps.json
+F:\git\netcoredemo\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.runtimeconfig.json
+F:\git\netcoredemo\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.runtimeconfig.dev.json
+F:\git\netcoredemo\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.dll
+F:\git\netcoredemo\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.pdb
+F:\git\netcoredemo\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.csprojResolveAssemblyReference.cache
+F:\git\netcoredemo\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.csproj.CoreCompileInputs.cache
+F:\git\netcoredemo\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.AssemblyInfoInputs.cache
+F:\git\netcoredemo\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.AssemblyInfo.cs
+F:\git\netcoredemo\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.dll
+F:\git\netcoredemo\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.pdb
